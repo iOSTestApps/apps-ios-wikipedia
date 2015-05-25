@@ -1,6 +1,6 @@
 source 'https://github.com/CocoaPods/Specs.git'
 
-platform :ios, :deployment_target => '6.0'
+platform :ios, :deployment_target => '7.0'
 
 inhibit_all_warnings!
 
@@ -8,7 +8,7 @@ xcodeproj 'Wikipedia'
 
 pod 'AFNetworking/NSURLConnection', '~> 2.5'
 pod 'hpple', '~> 0.2'
-pod 'blockskit/Core', '~> 2.2'
+pod 'BlocksKit/Core', '~> 2.2'
 pod 'Masonry', '~> 0.6'
 pod 'HockeySDK', '3.6.2'
 
